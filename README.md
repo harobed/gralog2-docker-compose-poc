@@ -36,3 +36,11 @@ Send some log to Graylog:
 $ ./send_udp_gelf_log.sh
 $ ./send_tcp_gelf_log.sh
 ```
+
+Connect Docker to Graylog:
+
+```
+$  docker run --log-driver=gelf --log-opt gelf-address=udp://127.0.0.1:12201  --rm -it ubuntu bash
+root@1cb70f449905:/# echo "Msg"
+Msg
+```
