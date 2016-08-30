@@ -18,13 +18,13 @@ Configure « Inputs »:
   * Password : admin
 * Go to "System" » "Inputs"
 
-* Configure Gelp UDP:
+* Configure Gelf UDP:
   * Select input: `GELF UDP`
   * Click on « Launch new input »
   * Title: « Gelf UDP »
   * Click « Save »
 
-* Configure Gelp TCP:
+* Configure Gelf TCP:
   * Select input: `GELF TCP`
   * Click on « Launch new input »
   * Title: « Gelf TCP »
